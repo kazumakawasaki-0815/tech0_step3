@@ -1,0 +1,8 @@
+cloudpickle==2.0.0
+pickleshare==0.7.5
+numpy==1.21.5
+numpydoc==1.4.0
+streamlit==1.17.0
+pandas==1.4.4
+scikit-image==0.19.2
+scikit-learn==1.0.2
