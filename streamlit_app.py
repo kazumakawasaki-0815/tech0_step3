@@ -49,6 +49,6 @@ if st.button("れっつらごー"):
     #標準化された状態で予測
     predict_nomalize=model_lr_std.predict(z_nomalize)
     #標準化をさらに戻す
-    result=predict_nomalize[0][0]*y_statics[1]+y_statics[0]
+    result=round(predict_nomalize[0][0]*y_statics[1]+y_statics[0])
 
     st.write("計算結果＝だいたい"+str(result)+"円")
